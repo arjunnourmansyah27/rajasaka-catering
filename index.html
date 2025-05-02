@@ -52,32 +52,33 @@
         </div>
 
         <!-- Menu -->
-        <nav class="hidden lg:flex space-x-8 font-bold text-[#F9C638]">
-  <a href="#"
-     class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
-    Home
-  </a>
-  <a href="#about"
-     class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
-    About
-  </a>
-  <a href="#service"
-     class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
-    Service
-  </a>
-  <a href="#menu"
-     class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
-    Menu
-  </a>
-  <a href="#faq"
-     class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
-    FAQ
-  </a>
-  <a href="#gallery"
-     class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
-    Gallery
-  </a>
-</nav>
+        <nav class="hidden lg:flex space-x-8 font-bold text-[#cca741]">
+          <a href="#"
+             class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
+            Home
+          </a>
+          <a href="#about"
+             class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
+            About
+          </a>
+          <a href="#service"
+             class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
+            Service
+          </a>
+          <a href="#menu"
+             class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
+            Menu
+          </a>
+          <a href="#faq"
+             class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
+            FAQ
+          </a>
+          <a href="#gallery"
+             class="nav-link transition relative hover:text-[#b6912f] after:absolute after:bottom-[-4px] after:left-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-[#FFD359] after:transition-all after:duration-300">
+            Gallery
+          </a>
+        </nav>
+        
 
 
         <!-- Instagram Icon -->
@@ -103,31 +104,40 @@
 
     <!-- Hero Section -->
     <section
-      class="bg-cover bg-center min-h-screen flex flex-col items-center justify-center text-white text-center px-6"
-      style="background-image: url('./img/background-catering.webp')"
+      class="bg-imgage-first bg-cover bg-center min-h-screen flex flex-col items-center justify-center text-white text-center px-6"
+      style="background-image: url('./img/bg-masak-black.png')"
     >
       <div class="mt-28 lg:mt-32">
         <!-- Dikasih margin-top agar tidak ketutup navbar fixed -->
         <img
-          src="./img/logo-white.webp"
+          src="./img/logo-catering.webp"
           alt="Logo"
           class="mx-auto w-40 mb-4"
           data-aos="fade-up" data-aos-anchor-placement="top-bottom"
         />
-        <h1 class="heading-text text-xl md:text-5xl font-bold leading-tight" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-          Setiap Acara Punya Cerita,<br />Kami Ciptakan Rasanya Berkesan
-        </h1>
+        <h1 
+  class="heading-text text-xl md:text-5xl font-bold leading-tight 
+         bg-gradient-to-r from-[#cca741] via-[#A87E2E] via-[#E1C067] to-[#B38832] 
+         bg-clip-text text-transparent 
+         drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)]"
+  data-aos="fade-up" 
+  data-aos-anchor-placement="top-bottom"
+>
+  Setiap Acara Punya Cerita,<br />Kami Ciptakan Rasanya Berkesan
+</h1>
       </div>
     </section>
 
     <main>
       <!-- WhatsApp Logo -->
-      <div class="whatsapp-logo" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        <a href="https://wa.me/+628119309899" target="_blank" rel="noopener">
-          <img src="img/WhatsApp.svg" alt="WhatsApp Logo" width="60" height="60"
-          ">
+      <div class="fixed bottom-6 right-6 z-50 flex items-center space-x-2 bg-white rounded-full px-3 py-2 shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <a href="https://wa.me/+6285779734809" target="_blank" rel="noopener" class="flex items-center space-x-2">
+          <img src="img/WhatsApp.svg" alt="WhatsApp Logo" width="40" height="40" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+          <span class="text-green-700 font-medium blink" style="margin-left: 8px;">Hubungi Kami</span>
         </a>
       </div>
+      
+      
 
       <section
         class="min-h-screen flex items-center justify-center px-4 py-12 bg-white"
@@ -187,7 +197,7 @@
       </section>
 
       <!-- Section Slider Foto (Overlap ke atas) -->
-      <section class="w-full bg-white">
+      <section class="w-full bg-white" data-aos="zoom-in-up">
         <div class="max-w-7xl mx-auto px-4 pt-0 pb-12">
           <div class="relative -translate-y-20">
             <div class="p-4">
@@ -236,13 +246,16 @@
                       <img src="./img/masak11.webp" class="w-full h-full object-cover" alt="Buffet" />
                     </div>
                     <div class="swiper-slide">
-                      <img src="./img/masak33.webp" class="w-full h-full object-cover" alt="Buffet 2" />
+                      <img src="./img/masak22.webp" class="w-full h-full object-cover" alt="Buffet 2" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./img/live-cooking.webp" class="w-full h-full object-cover" alt="Buffet 2" />
                     </div>
                   </div>
                   <div class="swiper-pagination"></div>
                 </div>
               </div>
-              <h3 class="mt-4 font-bold text-base uppercase text-gray-700">Live Cooking</h3>
+              <h3 class="mt-4 font-bold text-base uppercase text-[#9F7B0D]">Live Cooking</h3>
             </div>
             <!-- Card End -->
       
@@ -261,7 +274,7 @@
                   <div class="swiper-pagination"></div>
                 </div>
               </div>
-              <h3 class="mt-4 font-bold text-base uppercase text-gray-700">Buffet</h3>
+              <h3 class="mt-4 font-bold text-base uppercase text-[#9F7B0D]">Buffet</h3>
             </div>
       
             <div class="flex flex-col items-center">
@@ -278,7 +291,7 @@
                   <div class="swiper-pagination"></div>
                 </div>
               </div>
-              <h3 class="mt-4 font-bold text-base uppercase text-gray-700">Big Order</h3>
+              <h3 class="mt-4 font-bold text-base uppercase text-[#9F7B0D]">Big Order</h3>
             </div>
       
           </div>
@@ -289,7 +302,7 @@
       
 
       <!-- Food Category -->
-      <section id="menu" class="bg-gray-100 py-16 px-4 scroll-mt-16">
+      <section id="menu" class="bg-[#FFFCF5] py-16 px-4 scroll-mt-16">
         <div class="max-w-7xl mx-auto text-center mb-12">
           <div class="flex justify-center items-center gap-4">
             <div class="w-20 h-0.5 bg-[#cca741]"></div>
@@ -309,19 +322,31 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <img
-                      src="./img/masak33.webp"
+                      src="./img/Indo/paket 1.png"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
-                      src="https://i.ibb.co/cc3nK7M/indo2.jpg"
+                      src="./img/Indo/paket 2.png"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
-                      src="https://i.ibb.co/4s8vSKC/indo3.jpg"
+                      src="./img/Indo/Paket 3.png"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/Indo/paket 4.png"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/Indo/paket 5.png"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
@@ -341,19 +366,25 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <img
-                      src="./img/masak33.webp"
+                      src="./img/ASIAN/1.png"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
-                      src="https://i.ibb.co/2PYgZr9/asian2.jpg"
+                      src="./img/ASIAN/2.jpg"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
-                      src="https://i.ibb.co/kGSgjv5/asian3.jpg"
+                      src="./img/ASIAN/3.png"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/ASIAN/4.jpg"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
@@ -373,19 +404,87 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <img
-                      src="./img/masak22.webp"
+                      src="./img/WESTERN/1.JPG"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
-                      src="https://i.ibb.co/Wg3MDvY/western2.jpg"
+                      src="./img/WESTERN/2.jpg"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
-                      src="https://i.ibb.co/W3dQ53X/western3.jpg"
+                      src="./img/WESTERN/3.jpg"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-pagination mt-2"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="bg-white rounded-xl shadow-md w-[360px]">
+            <h3 class="font-semibold text-lg text-center mt-4 text-[#B08E32]">
+              Cemilan
+            </h3>
+            <div class="p-4">
+              <div class="swiper mySwiper2 rounded-lg overflow-hidden">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/1.webp"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/2.webp"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/3.webp"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/4.webp"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/5.webp"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/6.webp"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/7.webp"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/8.webp"
+                      class="w-full aspect-square object-cover rounded-md"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="./img/w-cemilan/9.webp"
                       class="w-full aspect-square object-cover rounded-md"
                     />
                   </div>
@@ -399,10 +498,10 @@
         <!-- Button lihat menu lain -->
         <div class="mt-12 flex justify-center">
           <a
-            href="./pdf/rajasaka.pdf"
+            href="./pdf/katalog-baru.pdf"
             class="bg-[#CCA741] text-white text-sm font-bold px-6 py-2 rounded hover:bg-yellow-700 transition"
           >
-            LIHAT MENU LAINNYA
+            LIHAT PAKET
           </a>
         </div>
       </section>
